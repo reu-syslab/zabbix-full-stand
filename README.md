@@ -36,12 +36,15 @@
 
 ```
 .
-├── zabbix-server/         # ВМ с сервером Zabbix
-├── zabbix-postgresql/     # ВМ с БД PostgreSQL
-├── zabbix-frontend/       # ВМ с веб-интерфейсом
-├── zabbix-proxy/          # ВМ с proxy для агентов
-├── ansible/               # (в будущем) автоматизация установки
-└── README.md
+├── ansible/ # (в будущем) автоматизация установки
+├── docs/ # Документация проекта
+│ └── architecture.md # Текущая архитектура Zabbix Full Stand
+├── vm-configs/ # Конфигурации ВМ (по ролям)
+├── templates.md # Список шаблонов Proxmox
+├── CHANGELOG.md # История изменений и версий
+├── .gitignore # Git-исключения
+└── README.md # Описание проекта
+
 ```
 
 ---
